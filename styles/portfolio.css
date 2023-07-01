@@ -1,6 +1,7 @@
 :root {
   --branding-color: #2676a9;
   --secondary-color: #edf3f7;
+  --text-color: #272142;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
 }
@@ -13,7 +14,7 @@ h1 {
   font-weight: regular;
   font-size: 42px;
   margin: 10px 25px;
-  color: #ffff;
+  color: black;
 }
 
 h2 {
@@ -40,4 +41,31 @@ h2 {
   border-radius: 5px;
   color: #ffff;
   font-family: var(--default-font-family);
+  font-size: 14px;
+}
+.reviews {
+  color: var(--text-color);
+  text-align: center;
+  padding: 10px 50px;
+  font-size: 16px;
+}
+.review-text {
+  padding: 30px;
+}
+.author-fade {
+  color: var(--text-color);
+  opacity: 70%;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 28px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+  .reviews {
+    font-size: 12px;
+    padding: 0;
+  }
 }
