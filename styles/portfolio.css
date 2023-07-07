@@ -32,6 +32,13 @@ h3 {
   font-size: 24px;
   padding: 20px;
 }
+h4 {
+  font-family: var(--heading-font-family);
+  font-size: 24px;
+  display: block;
+  text-align: start;
+  margin-top: 85px;
+}
 .hero {
   position: relative;
 }
@@ -127,13 +134,27 @@ h3 {
   margin-top: 10px;
   border-radius: 5px;
 }
+.contact-info {
+  display: block;
+  text-align: start;
+}
+.email-link {
+  text-decoration: none;
+  color: var(--text-color);
+}
+.in-the-wings {
+  max-width: 450px;
+  margin-left: 45px;
+}
 @media (max-width: 1200px) {
   h1 {
     font-size: 28px;
     display: block;
     text-align: center;
   }
-  h2 h3 {
+
+  h3,
+  h4 {
     font-size: 18px;
   }
   .reviews {
@@ -149,14 +170,19 @@ h3 {
     text-align: center;
     margin-top: 20px;
   }
-}
-@media (max-width: 1200px) {
   .denim-hs,
   .purple-hs,
   .black-hs,
-  .images {
+  .images,
+  .in-the-wings {
     margin: 0 auto;
     padding: 10px;
     display: block;
+  }
+}
+@media (max-width: 991px) {
+  .contact-info {
+    display: block;
+    text-align: center;
   }
 }
