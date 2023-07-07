@@ -121,7 +121,12 @@ h3 {
   display: block;
   margin: 0 auto;
 }
-
+.video-link {
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+  border-radius: 5px;
+}
 @media (max-width: 1200px) {
   h1 {
     font-size: 28px;
