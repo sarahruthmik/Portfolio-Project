@@ -170,6 +170,11 @@ h4 {
   max-width: 450px;
   margin-left: 45px;
 }
+
+.copyright {
+  text-align: end;
+  font-size: 14px;
+}
 @media (max-width: 1200px) {
   h1 {
     font-size: 28px;
