@@ -222,4 +222,9 @@ h4 {
     text-align: center;
     margin-top: 10px;
   }
+  .resume-photo,
+  .images,
+  .video-link {
+    max-width: 100%;
+  }
 }
